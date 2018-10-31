@@ -1,0 +1,17 @@
+{
+    "name": "ebolution/test_package",
+    "description": "Paquete de ejemplo para probar servidor Composer",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Roberto León",
+            "email": "robertocarlos.leon@ebolution.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "TestPackage": "src/"
+        }
+    }
+}
